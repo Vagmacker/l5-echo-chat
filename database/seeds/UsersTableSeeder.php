@@ -20,8 +20,7 @@ class UsersTableSeeder extends Seeder
 
         factory(\App\Model\User::class)->create([
             'name' => 'João Felipe',
-            'email' => 'joaofelipe25@hotmail.com',
-            'password' => 123456,
+            'email' => 'joaofelipe25@hotmail.com'
         ]);
     }
 }
